@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px'}}>
-      <h1 style={{ textAlign: 'center' }}>Erino Contact Management</h1>
+      <h1 style={{ textAlign: 'center' }}>Contact Management</h1>
       <div className='top_div'><SearchBar id='searchbar' style={{ padding: '200px' }} onSearch={handleSearch} />
       <Button style={{height:'55px'}} variant="contained" color="primary" onClick={handleAddContactClick}>
         Add Contact
